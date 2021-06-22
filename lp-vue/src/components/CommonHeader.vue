@@ -67,11 +67,13 @@ export default {
   height: 70px;
   background: #000;
 }
+
 .header-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .header-logo {
   font-size: 20px;
   font-weight: bold;
@@ -79,16 +81,20 @@ export default {
   color: #f2f2f2;
   line-height: 70px;
 }
+
 .header-nav ul {
   display: flex;
 }
+
 .header-nav li {
   margin-right: 35px;
   font-size: 16px;
 }
+
 .header-nav a {
   color: #f2f2f2;
 }
+
 @media screen and (max-width: 768px) {
   #hamburger {
     width: 40px;
@@ -121,11 +127,13 @@ export default {
   .header-nav {
     display: none;
   }
+
   /* ここを追加 */
   #hamburger.active span:nth-of-type(1) {
     top: 20px;
     transform: rotate(45deg);
   }
+
   #hamburger.active span:nth-of-type(2) {
     opacity: 0;
   }

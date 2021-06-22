@@ -25,14 +25,14 @@
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
         </div>
         <div class="mission-img">
-          <img src="assets/img/mission-img.jpg" alt="" />
+          <img src="./assets/mission-img.jpg" alt="" />
         </div>
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
         <div class="service-content">
           <div class="service-img">
-            <img src="assets/img/service2.jpg" alt="" />
+            <img src="./assets/service2.jpg" alt="" />
           </div>
           <div class="service-content_inner">
             <h3 class="mgb-15">web制作事業</h3>
@@ -45,7 +45,7 @@
         </div>
         <div class="service-content">
           <div class="service-img service-img_second">
-            <img src="assets/img/service1.jpg" alt="" />
+            <img src="./assets/service1.jpg" alt="" />
           </div>
           <div class="service-content_inner service-content_inner-second">
             <h3 class="mgb-15">web制作事業</h3>
@@ -124,30 +124,24 @@ time, mark, audio, video {
   vertical-align:baseline;
   background:transparent;
 }
-
 body {
   line-height:1;
 }
-
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
   display:block;
 }
-
 nav ul {
   list-style:none;
 }
-
 blockquote, q {
   quotes:none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
   content:'';
   content:none;
 }
-
 a {
   margin:0;
   padding:0;
@@ -155,14 +149,12 @@ a {
   vertical-align:baseline;
   background:transparent;
 }
-
 /* change colours to suit your needs */
 ins {
   background-color:#ff9;
   color:#000;
   text-decoration:none;
 }
-
 /* change colours to suit your needs */
 mark {
   background-color:#ff9;
@@ -170,21 +162,17 @@ mark {
   font-style:italic;
   font-weight:bold;
 }
-
 del {
   text-decoration: line-through;
 }
-
 abbr[title], dfn[title] {
   border-bottom:1px dotted;
   cursor:help;
 }
-
 table {
   border-collapse:collapse;
   border-spacing:0;
 }
-
 /* change border colour to suit your needs */
 hr {
   display:block;
@@ -194,45 +182,37 @@ hr {
   margin:1em 0;
   padding:0;
 }
-
 input, select {
   vertical-align:middle;
 }
-
 /*------------------------*/
 /*      共通のスタイル      */
 /*------------------------*/
 html {
   height: 100%;
 }
-
 a {
   color: #333333;
   text-decoration: none;
 }
-
 img {
   width: 100%;
   height: 100%;
   display: block;
 }
-
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-
 body {
   color: #333333;
   height: 100%;
 }
-
 .mgb-15 {
   margin-bottom: 15px;
 }
-
 .common-btn {
   display: block;
   width: 130px;
@@ -243,16 +223,13 @@ body {
   color: #000;
   text-align: center;
 }
-
 .section-title {
   font-size: 40px;
   line-height: 1;
 }
-
 .section-title span {
   font-size: 20px;
 }
-
 /*------------------------*/
 /*         header         */
 /*------------------------*/
@@ -282,7 +259,7 @@ body {
 
 #firstview {
   height: 100%;
-  background: url(../assets/img/eyecatch.jpg) no-repeat;
+  background: url(assets/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -339,23 +316,19 @@ body {
   margin-bottom: 10%;
   z-index: 999;
 }
-
 .mission-content {
   padding: 10% 0 10% 20%;
   box-sizing: border-box;
   width: 70%;
 }
-
 .mission_title,
 .mission_text {
   margin-bottom: 30px;
   color: #fff;
 }
-
 .mission_title {
   font-size: 30px;
 }
-
 .mission-img {
   width: 40%;
   position: absolute;
@@ -363,7 +336,6 @@ body {
   right: 5%;
   z-index: -999;
 }
-
 /*------------------------*/
 /*         service        */
 /*------------------------*/
@@ -371,26 +343,21 @@ body {
   background: #e5e5e5;
   margin-bottom: 10%;
 }
-
 .service-title {
   text-align: center;
   padding: 20px 0;
 }
-
 .service-content {
   position: relative;
   padding-bottom: 15%;
 }
-
 .service-img {
   width: 50%;
   margin-left: 50%;
 }
-
 .service-img_second {
   margin: 0 50% 0 0;
 }
-
 .service-content_inner {
   position: absolute;
   top: 15%;
@@ -400,37 +367,30 @@ body {
   padding: 5% 5%;
   box-sizing: border-box;
 }
-
 .service-content_inner-second {
   left: 40%;
 }
-
 .service-btn {
   border: 1px solid #000;
   margin: 0 0 0 auto;
 }
-
 /*------------------------*/
 /*        recruit         */
 /*------------------------*/
 .company {
   margin-bottom: 10%;
 }
-
 .recruit-company_size {
   width: 48%;
   height: 300px;
   position: relative;
 }
-
 .company-img {
-  background: url(../assets/img/company.jpeg) center/cover no-repeat;
+  background: url(assets/company.jpeg) center/cover no-repeat;
 }
-
 .recruit-img {
-  background: url(../assets/img/recruit.jpg) center/cover no-repeat;
+  background: url(assets/recruit.jpg) center/cover no-repeat;
 }
-
 .company-title {
   text-align: center;
   color: #fff;
@@ -439,11 +399,9 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .company-title span {
   color: #fff;
 }
-
 /*------------------------*/
 /*        faq             */
 /*------------------------*/
@@ -453,32 +411,27 @@ body {
   margin: 0 auto 10%;
   padding: 50px;
 }
-
 .faq-title,
 .faq-title-jp {
   display: inline-block;
   color: #fff;
 }
-
 .faq-title {
   font-size: 40px;
   width: 10%;
 }
-
 .faq-title-jp {
   font-size: 20px;
   width: 80%;
   text-align: center;
 }
-
 /*------------------------*/
 /*        contact         */
 /*------------------------*/
 .contact {
-  background: url(../assets/img/contact-bg.jpg) center/cover no-repeat;
+  background: url(assets/contact-bg.jpg) center/cover no-repeat;
   padding: 10%;
 }
-
 .contact-title,
 .contact-title span,
 .contact-subtitle,
@@ -486,32 +439,15 @@ body {
   color: #fff;
   text-align: center;
 }
-
 .contact-title,
 .contact-subtitle,
 .contact-text {
   margin-bottom: 40px;
 }
-
 .contact-btn {
   margin: 0 auto;
   background: none;
   border: 1px solid #fff;
-  color: #fff;
-}
-
-.footer-bar {
-  height: 70px;
-  line-height: 70px;
-}
-
-.top-footer {
-  background: #000;
-  text-align: center;
-}
-
-.top-footer small {
-  text-align: center;
   color: #fff;
 }
 </style>
