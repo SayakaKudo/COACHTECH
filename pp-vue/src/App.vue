@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <CommonHeader></CommonHeader>
-    <main>
-    <div id="firstview">
+
       <p class="catchcopy">機械ではできない仕事を</p>
       <div class="news flex">
         <div class="news-content">
@@ -13,7 +12,7 @@
         </div>
         <div class="news-icon">news</div>
       </div>
-    </div>
+    <main>
       <div class="mission">
         <div class="mission-content">
           <h2 class="mission_title">
@@ -230,51 +229,6 @@ body {
 .section-title span {
   font-size: 20px;
 }
-/*------------------------*/
-/*         header         */
-/*------------------------*/
-#top-header {
-  height: 70px;
-  line-height: 70px;
-  background: rgba(0, 0, 0, 1);
-}
-
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #fff;
-  line-height: 70px;
-}
-
-.header-nav li {
-  display: inline-block;
-  margin-right: 35px;
-  font-size: 16px;
-}
-
-.header-nav a {
-  color: #fff;
-}
-
-#firstview {
-  height: 100%;
-  background: url(assets/eyecatch.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.catchcopy {
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  font-size: 60px;
-  font-style: italic;
-  font-weight: bold;
-  color: #fff;
-  line-height: 1;
-}
 
 /*------------------------*/
 /*         news           */
@@ -307,6 +261,19 @@ body {
   color: #fff;
 }
 
+/* 分からないところ */
+
+.catchcopy {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
 /*------------------------*/
 /*         mission        */
 /*------------------------*/
@@ -314,7 +281,7 @@ body {
   position: relative;
   background: #000;
   margin-bottom: 10%;
-  z-index: 999;
+  z-index: 2;
 }
 .mission-content {
   padding: 10% 0 10% 20%;
@@ -334,7 +301,7 @@ body {
   position: absolute;
   bottom: -10%;
   right: 5%;
-  z-index: -999;
+  z-index: 1;
 }
 /*------------------------*/
 /*         service        */
@@ -386,7 +353,7 @@ body {
   position: relative;
 }
 .company-img {
-  background: url(assets/company.jpeg) center/cover no-repeat;
+  background: url(assets/company.jpg) center/cover no-repeat;
 }
 .recruit-img {
   background: url(assets/recruit.jpg) center/cover no-repeat;
